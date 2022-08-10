@@ -31,6 +31,7 @@ namespace vending_machine
                 this.Visible = false;
                 Form2 visivel = new Form2();
                 visivel.ShowDialog();
+                Application.Exit();
             }
         }
 
